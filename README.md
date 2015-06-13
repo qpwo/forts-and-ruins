@@ -13,6 +13,8 @@ Forts and Ruins started as a game played with graph paper and dice, with simple-
  4. All territories that are not connected to a fort through living cells are killed.
 4. Main loop begins with Nikolai placing a territory and the board being evaluated. The game stops when there are no living forts so Nikolai can not make a move.
 
+Note that exactly the above steps occur in the `updatefield` function in `updatefield.py`.
+
 Nikolai can justify the above rules by thinking of forts as villages and territories as farms, both with roads running through them. If a village has no access to food, it will die. If a farm has no one running it, or there is bad weather, it will die. If there is a lot of food being produced in an area, then people will move in.
 
 ###How to run the code
