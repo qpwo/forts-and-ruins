@@ -1,4 +1,4 @@
-##Forts and Ruins
+## Forts and Ruins
 
 ![](screenshot.png)
 
@@ -17,7 +17,7 @@ Note that exactly the above steps occur in the `updatefield` function in `update
 
 Nikolai can justify the above rules by thinking of forts as villages and territories as farms, both with roads running through them. If a village has no access to food, it will die. If a farm has no one running it, or there is bad weather, it will die. If there is a lot of food being produced in an area, then people will move in.
 
-###How to run the code
+### How to run the code
 First you need to [install pygame](http://www.pygame.org/download.shtml).
 Then run `python gui.py` in your terminal.
 A window will pop up where you can play the game.
@@ -27,5 +27,5 @@ A window will pop up where you can play the game.
 * `q` resets the board
 * left and right arrows move backward or forward a step in time when you are in replay mode
 
-###Thanks
+### Thanks
 Thanks to Max Williams who invented the game on paper, and was a key part of beginning development. He has made his own complete version, but I am not sure where you can find it.
